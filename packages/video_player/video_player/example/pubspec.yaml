@@ -14,14 +14,7 @@ dependencies:
     path: ../
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
-  flutter_driver:
-    sdk: flutter
-  integration_test:
-    sdk: flutter
-  test: any
-  pedantic: ^1.10.0
+  pedantic: ^1.9.2
 
 flutter:
   uses-material-design: true
@@ -31,5 +24,5 @@ flutter:
    - assets/bumble_bee_captions.srt
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.3.0 <3.0.0"
   flutter: ">=1.12.13+hotfix.5"
